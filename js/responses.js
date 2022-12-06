@@ -37,7 +37,7 @@ function getBotResponse(input) {
         var msg =link;
         return "Ingresa al siguiente enlace: " + msg;
     }
-    else if (input == "niño" || input == "Niño" || input == "Nino" || input == "nino") {
+    else if (input == "niño" || input == "Niño" || input == "Nino" || input == "nino" || input == "ninos" || input == "niños" || input == "Nina" || input == "niña" || input == "Niña" || input == "nina") {
         var str = "paginas/coleccionNino.html";
         var link = str.link("paginas/coleccionNino.html");
         var msg =link;
